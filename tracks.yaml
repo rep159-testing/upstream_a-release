@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:rep159-testing/upstream_a-release.git
 tracks:
   upstream:
     actions:
