@@ -1,0 +1,13 @@
+Source: ros-srcext-upstream-a
+Section: misc
+Priority: optional
+Maintainer: "Jose Luis Rivero" <jrivero@honurobotics.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, libgtest-dev, libgtest-dev <!nocheck>, libxml2-dev, ros-srcext-ros-workspace
+Homepage: https://index.ros.org/p/upstream_a/#srcext
+Standards-Version: 3.9.2
+
+Package: ros-srcext-upstream-a
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-dev, ros-srcext-ros-workspace
+Description: Bottom of the REP-159 test chain: counts the elements of an XML document with libxml2.
+ Part of the upstream distribution of the rep159-testing harness.
