@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>upstream_a</name>
+  <version>0.1.0</version>
+  <description>
+    Bottom of the REP-159 test chain: counts the elements of an XML document
+    with libxml2. Part of the upstream distribution of the rep159-testing
+    harness.
+  </description>
+  <maintainer email="jrivero@honurobotics.com">Jose Luis Rivero</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <depend>libxml2</depend>
+
+  <!-- A build_depend too: a ros_buildfarm ci job configures the tests in its
+       build phase, where test_depend packages are not installed. -->
+  <build_depend>gtest</build_depend>
+  <test_depend>gtest</test_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
