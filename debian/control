@@ -1,4 +1,4 @@
-Source: ros-upstream-upstream-a
+Source: vendor-upstream-upstream-a
 Section: misc
 Priority: optional
 Maintainer: "Jose Luis Rivero" <jrivero@honurobotics.com>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, libgtest-dev, libgtest-dev <!nocheck
 Homepage: https://index.ros.org/p/upstream_a/#upstream
 Standards-Version: 3.9.2
 
-Package: ros-upstream-upstream-a
+Package: vendor-upstream-upstream-a
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-dev, ros-upstream-ros-workspace
 Description: Bottom of the REP-159 test chain: counts the elements of an XML document with libxml2.
