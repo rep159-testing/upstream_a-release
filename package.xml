@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>upstream_a</name>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <description>
     Bottom of the REP-159 test chain: counts the elements of an XML document
     with libxml2. Part of the upstream distribution of the rep159-testing
